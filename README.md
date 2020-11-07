@@ -9,15 +9,15 @@
 Ferramenta para Medição de Software e Controle Estatístico de Processos. 
 <br/>Baseada na arquitetura de referência de medição de software de MARETTO (2014).
 
-##Configuração da SoMeSPC
-###Requisitos
+## Configuração da SoMeSPC
+### Requisitos
 - Microsoft Windows 7 SP1 64 bits (ou outro sistema operacional com suporte à plataforma Java)
 - Java 7 JDK (x64) - [Download] (http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk7-downloads-1880260.html)
 - IDE Eclipse Luna for EE Developers (x64) SR2 - [Download] (https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR2/eclipse-jee-luna-SR2-win32-x86_64.zip)
 - MySQL 5.6.24 - [Download] (https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-5.6.24.0.msi)
 - Apache Tomcat 7.0.59 (x64) - [Download] (http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.59/bin/apache-tomcat-7.0.59-windows-x64.zip)
 
-###Instruções para configuração da SoMeSPC
+### Instruções para configuração da SoMeSPC
 1. Instalar o Java 7 JDK.
 2. Instalar o MySQL.
 3. Criar um esquema de banco de dados chamado **"somespc"**.
@@ -47,13 +47,13 @@ Ferramenta para Medição de Software e Controle Estatístico de Processos.
  4. Abra a aplicação no browser pela URL: [http://localhost:8080/SoMeSPC](http://localhost:8080/SoMeSPC).
 
 <!---
-##Configuração do Sonar
-###Requisitos
+## Configuração do Sonar
+### Requisitos
 
 - PostgreSQL 9.4.1 (x64) - [Download] (http://www.enterprisedb.com/products-services-training/pgdownload)
 - SonarQube 4.5.1 - [Download](http://dist.sonar.codehaus.org/sonarqube-4.5.1.zip)
 
-##Instruções para configuração do SonarQube
+## Instruções para configuração do SonarQube
 
 1. Descompactar o SonarQube em C:\sonarqube-4.5.1 (caminho padrão).
 2. Criar um banco de dados no PostgreSQL chamado <b>"sonar"</b> e informar como dono o usuário <b>"postgres"</b>.
@@ -72,14 +72,14 @@ Ferramenta para Medição de Software e Controle Estatístico de Processos.
 8. Selecionar a aba **"Available Plugins"**, procurar e instalar o **"Portuguese Pack"**.
 9. Reiniciar o SonarQube (fechar o console aberto e iniciar novamente o script **StartSonar.bat**).
 
-##Configuração do Jenkins
-###Requisitos
+## Configuração do Jenkins
+### Requisitos
 
 - Apache Tomcat 7.0.59 (x64) - [Download] (http://mirrors.koehn.com/apache/tomcat/tomcat-7/v7.0.59/bin/apache-tomcat-7.0.59-windows-x64.zip)
 - Cliente Git 1.9.5 (Windows) - [Download](https://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20150319/Git-1.9.5-preview20150319.exe)
 - Jenkins CI 1.593 - [Download](http://mirrors.jenkins-ci.org/war/1.593/jenkins.war)
 
-##Instruções para configuração do Jenkins
+## Instruções para configuração do Jenkins
 
 1. Baixar e instalar o cliente **Git** conforme a URL de download acima.
 1. Baixar o <b>Jenkins</b> conforme a URL de download acima.
@@ -122,12 +122,12 @@ Ferramenta para Medição de Software e Controle Estatístico de Processos.
 13. Clicar em **Salvar**.
 
 
-##Configuração do Mantis Bug Tracking
-###Requisitos
+## Configuração do Mantis Bug Tracking
+### Requisitos
 - Wamp Server 2.5 (Windows + Apache + MySQL + PHP server) (x64) - [Download](http://sourceforge.net/projects/wampserver/files/WampServer%202/Wampserver%202.5/wampserver2.5-Apache-2.4.9-Mysql-5.6.17-php5.5.12-64b.exe/download)
 - Mantis Bug Tracking 1.2.19 - [Download] (http://sourceforge.net/projects/mantisbt/files/mantis-stable/1.2.19/mantisbt-1.2.19.zip/download)
  
-###Instruções para configuração
+### Instruções para configuração
 1. Instalar o Wamp Server 2.5
 2. Alterar o idioma para Português (clicar com botão direito do mouse no ícone do Wamp Server 2.5 na bandeja do Windows, depois em <b>"Language -> portuguese"</b>).
 2. Abrir o phpMyAdmin (clicar no ícone do Wamp Server 2.5 na bandeja do Windows, depois em <b>"phpMyAdmin"</b>).
@@ -148,13 +148,13 @@ Ferramenta para Medição de Software e Controle Estatístico de Processos.
 8. Informar o usuário <b>Administrator</b> e senha <b>root</b> para acessar o Mantis Bug Tracking.
 -->
 
-##IMPORTANTE
+## IMPORTANTE
 <b>Os passos informados nas instruções de configuração foram baseados em um ambiente de desenvolvimento. Para ambientes de produção, as variáveis como senha, URL e local de instalação deverão ser alteradas de acordo com cada necessidade.</b>
 
 ## Referência
 C. X. MARETTO and M. P. BARCELLOS, <b>[Uma Arquitetura de Referência para Medição de Software](http://nemo.inf.ufes.br/wp-content/papercite-data/pdf/uma_arquitetura_de_referccncia_para_medicccco_de_software_2014.pdf)</b> in XIII Simpósio Brasileiro de Qualidade de Software (SBQS 2014), 2014.
 
-##Licença
+## Licença
 ```
  SoMeSPC - A powerful tool for measurement
  
